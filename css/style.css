@@ -8,30 +8,6 @@ body {
     position: relative;
 }
 
-
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
-
-.my-float{
-	margin-top:16px;
-}
-
-.site-hero overlay{
-
-}
-
 ::-moz-selection {
     color: #fff;
     background: #ffba5a;
@@ -156,8 +132,8 @@ textarea.form-control {
 .site-header.scrolled {
     padding: 20px 0;
     background: #fff;
-    -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.0);
+    box-shadow: 0 5px 20px -5px rgba(0, 0, 0, 0.0);
 }
 
 .site-header.scrolled .site-menu-toggle {
@@ -286,9 +262,9 @@ textarea.form-control {
 
 .site-hero {
     background-size: cover;
-    height: 50%;
-    min-height: 500px;
-    width: 90%;
+    height: 100vh;
+    min-height: 700px;
+    width: 100%;
     position: relative;
 }
 
@@ -301,9 +277,9 @@ textarea.form-control {
     position: absolute;
     bottom: 20px;
     left: 50%;
-    -webkit-transform: translateX(50%);
-    -ms-transform: translateX(50%);
-    transform: translateX(50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
     color: #fff;
 }
 
@@ -355,14 +331,14 @@ textarea.form-control {
     line-height: 1.5;
 }
 
-@media (max-width: 891.98px) {
+@media (max-width: 991.98px) {
     .site-hero-inner .sub-heading {
         font-size: 18px;
     }
 }
 
 .inner-page .site-hero-inner {
-    height: 90vh;
+    height: 50vh;
     min-height: 700px;
 }
 
